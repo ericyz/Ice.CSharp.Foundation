@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Ice.CSharp.Foundation.EqualSign;
 
 namespace Ice.CSharp.Foundation
 {
@@ -6,7 +6,7 @@ namespace Ice.CSharp.Foundation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DemoClass.Execute();
         }
     }
 }
