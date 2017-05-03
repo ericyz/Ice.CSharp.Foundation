@@ -19,6 +19,13 @@ namespace Ice.CSharp.Foundation.Library
             // Do something with the borrowed book
             Console.WriteLine($"Student class: The borrow method in the Student class is called.");
         }
-        
+
+        // To get called in Main class
+        public static void Execute(){
+            Student student = new Student();
+            Console.WriteLine("Main Method: student has been initlized");
+            student.Borrow("A Brief History of Time");
+            Console.WriteLine("Main Method: student has been initlized");
+        }
     }
 }
